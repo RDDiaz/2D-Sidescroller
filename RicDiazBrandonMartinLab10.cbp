@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RicDiazBrandonMartinLab10" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/RicDiazBrandonMartinLab10" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/allegro-5.0.10-mingw-4.7.0/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-static-libgcc" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\liballegro-5.0.10-monolith-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libdumb-0.9.3-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libFLAC-1.2.1-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libfreetype-2.4.8-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libogg-1.2.1-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libopenal-1.14-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libvorbis-1.3.2-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libvorbisfile-1.3.2-static-mt-debug.a" />
+					<Add library="C:\allegro-5.0.10-mingw-4.7.0\lib\libzlib-1.2.5-static-mt-debug.a" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/RicDiazBrandonMartinLab10" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="GUI_sprite.cpp" />
+		<Unit filename="GUI_sprite.h" />
+		<Unit filename="baddie.cpp" />
+		<Unit filename="baddie.h" />
+		<Unit filename="collectible.cpp" />
+		<Unit filename="collectible.h" />
+		<Unit filename="collision.cpp" />
+		<Unit filename="collision.h" />
+		<Unit filename="image_library.cpp" />
+		<Unit filename="image_library.h" />
+		<Unit filename="image_sequence.cpp" />
+		<Unit filename="image_sequence.h" />
+		<Unit filename="keyboard_manager.cpp" />
+		<Unit filename="keyboard_manager.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="menu_sprite.cpp" />
+		<Unit filename="menu_sprite.h" />
+		<Unit filename="obstruction_sprite.cpp" />
+		<Unit filename="obstruction_sprite.h" />
+		<Unit filename="phys_sprite.cpp" />
+		<Unit filename="phys_sprite.h" />
+		<Unit filename="player.cpp" />
+		<Unit filename="player.h" />
+		<Unit filename="player_sprite.cpp" />
+		<Unit filename="player_sprite.h" />
+		<Unit filename="projectile.cpp" />
+		<Unit filename="projectile.h" />
+		<Unit filename="rectangle.cpp" />
+		<Unit filename="rectangle.h" />
+		<Unit filename="sprite.cpp" />
+		<Unit filename="sprite.h" />
+		<Unit filename="vec2d.cpp" />
+		<Unit filename="vec2d.h" />
+		<Unit filename="world.cpp" />
+		<Unit filename="world.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

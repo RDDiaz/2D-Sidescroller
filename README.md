@@ -1,7 +1,8 @@
 # 2D-Sidescroller-Project
 2D Sidescroller Game in C++ using Allegro
 
-## Authors: Richard Diaz / Brandon Martin
+## Project Description
+Authors: Richard Diaz / Brandon Martin
 
 ### Controls:
 * Start - Enter

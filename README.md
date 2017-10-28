@@ -3,14 +3,16 @@
 
 ## Project Description
 Authors: Richard Diaz / Brandon Martin
+Created in CodeBlocks 13.12
+Using Allegro 5.0.10
 
 ### Controls:
 * Start - Enter
 * Pause/Menu - Spacebar
 * Movement - Arrow Keys
-* Slide - Down + Direction
-* Select weapon in Menu - Mouse Click
-* Use weapon - Q
+* Slide - Arrow Key(Down) + Arrow Key(Direction)
+* Select Weapon in Menu - Mouse Click
+* Use Weapon - Q
 
 (Pictured: Level 1)
 ![sidescroller1](https://user-images.githubusercontent.com/28874711/32063034-3198fcec-ba44-11e7-9b1b-00dfe7aedbcc.png)

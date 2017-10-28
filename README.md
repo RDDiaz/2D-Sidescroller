@@ -2,8 +2,8 @@
 2D Sidescroller Game in C++ using Allegro
 
 ## Project Description
-Authors: Richard Diaz / Brandon Martin
-Created in CodeBlocks 13.12
+Authors: Richard Diaz / Brandon Martin\
+Created in CodeBlocks 13.12\
 Using Allegro 5.0.10
 
 ### Controls:
